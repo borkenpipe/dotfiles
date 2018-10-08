@@ -153,7 +153,8 @@ function blt() {
 export PATH="/usr/local/opt/php@7.1/bin:$PATH"
 export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
 
-SOURCERS="os_type.sh vars.sh colors.sh shopts.sh nav.sh shorthand.sh cmd_prompt.sh networking.sh ssh.sh tmux.sh shell.sh inet.sh os_post.sh finally.sh"
+#SOURCERS="os_type.sh vars.sh colors.sh shopts.sh nav.sh shorthand.sh cmd_prompt.sh networking.sh ssh.sh tmux.sh shell.sh inet.sh os_post.sh finally.sh"
+SOURCERS="vars.sh colors.sh"
 PREFIX="$HOME/etc/bashparts/"
 
 main()
